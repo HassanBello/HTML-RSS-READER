@@ -49,7 +49,7 @@ input[type="submit"],
 		button.alt,
 		.button.alt {
 			background: #FFF;
-			color: #99cc00;
+			color:#ffcc00;
 		}
 
 		input[type="submit"].fit,
@@ -158,7 +158,7 @@ input[type="submit"],
 			display: -ms-flexbox;
 			-ms-flex-align: center;
 			-ms-flex-pack: center;
-			background: #99cc00;
+			background: #ffcc00;
 			border-radius: 100%;
 			width: 35em;
 			height: 35em;
@@ -316,7 +316,7 @@ input[type="submit"],
 			display: inline-block;
 			text-decoration: none;
 			border-radius: 50% 50% 0 0;
-			background:#99cc00;
+			background:#ffcc00;
 			width: 3em;
 			height: 3em;
 			margin-bottom: -1.75em;
@@ -347,7 +347,7 @@ input[type="submit"],
 			-ms-flex-pack: center;
 			position: relative;
 			z-index: 10003;
-			background: #99cc00;
+			background: #ffcc00;
 			padding: 2em;
 			height: 20em;
 		}
