@@ -1,5 +1,11 @@
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Pattaya|Work+Sans:400,200,300);
+
+/*body */
+body {
+		background-color: #34d31b;
+		color: #444;
+	}
  /*button */
 input[type="submit"],
 	input[type="reset"],
@@ -49,7 +55,7 @@ input[type="submit"],
 		button.alt,
 		.button.alt {
 			background: #FFF;
-			color:#C12E2E;
+			color:#34d31b;
 		}
 
 		input[type="submit"].fit,
@@ -105,6 +111,26 @@ input[type="submit"],
 			}
 
 		}
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
 /* header */
 	#header {
 		-moz-transition: background 1s ease-in-out, height 0.2s ease-in-out;
@@ -158,13 +184,13 @@ input[type="submit"],
 			display: -ms-flexbox;
 			-ms-flex-align: center;
 			-ms-flex-pack: center;
-			background: #C12E2E;
+			background: #34d31b;
 			border-radius: 100%;
 			width: 35em;
 			height: 35em;
 			padding: 4em;
 			text-align: center;
-			box-shadow: 0 0 0 1em #FFF;
+			box-shadow: 0 0 0 0.375em #FFF; 
 			cursor: default;
 		}
 
@@ -316,7 +342,7 @@ input[type="submit"],
 			display: inline-block;
 			text-decoration: none;
 			border-radius: 50% 50% 0 0;
-			background:#C12E2E;
+			background:#34d31b;
 			width: 3em;
 			height: 3em;
 			margin-bottom: -1.75em;
@@ -347,7 +373,7 @@ input[type="submit"],
 			-ms-flex-pack: center;
 			position: relative;
 			z-index: 10003;
-			background: #C12E2E;
+			background: #34d31b;
 			padding: 2em;
 			height: 20em;
 		}
@@ -441,17 +467,13 @@ input[type="submit"],
 }
 
 /* The about link: 20px from the top with a green background */
-#about {
-    top: 90px;
-    background-color: #5A8083;
-}
 
 #donate{
     top: 150px;
     background-color: #B22222; /* Red */
 }
 
-#contact {
+#night {
     top: 210px;
     background-color: #555 /* Light Black */
 }
