@@ -11,7 +11,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="shortcut icon" href="images/bucky2.png" type="image/png"> </head>
+    <link rel="shortcut icon" href="images/bucky2.png" type="image/png"> 
+     <script src="js/addtohomescreen.js"></script>
+    <!-- Additionally, include jQuery (necessary for bookmark script) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
 
 <body>
     <!-- Header -->
@@ -22,6 +26,7 @@
                 <h2>A versatile Rss<br />
 						reader</h2> <a href="#" class="button big alt"><span>continue...</span></a> </div> <a href="#" class="button hidden"><span>continue...</span></a> </div>
     </header>
+    <a id="bookmark-this" href="#" title="Bookmark This Page">Bookmark This Page</a>
     <!-- Main -->
     <div id="main">
         <div class="inner">
@@ -32,8 +37,8 @@
                         <h2>Sports</h2></a>
                 </div>
                 <div class="image fit">
-                    <a href="technology.html"><img src="images/pic02.png" alt="" />
-                        <h2>Technology</h2></a>
+                    <a href="space.html"><img src="images/pic05.jpg" alt="" />
+                        <h2>Space and Earth</h2></a>
                 </div>
                 <div class="image fit">
                     <a href="buisness.html"><img src="images/pic03.jpg" alt="" />
@@ -49,8 +54,8 @@
                         <h2>Fashion</h2></a>
                 </div>
                 <div class="image fit">
-                    <a href="space.html"><img src="images/pic05.jpg" alt="" />
-                        <h2>Space and Earth</h2></a>
+                    <a href="technology.html"><img src="images/pic02.png" alt="" />
+                        <h2>Technology</h2></a>
                 </div>
                 <div class="image fit">
                     <a href="movies.html"><img src="images/movie.jpg" alt="" />
@@ -119,6 +124,7 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/bookmark.js"></script>
 </body>
 
 </html>

@@ -2,11 +2,13 @@
 
 <head>
     <title>Space and Earth</title>
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/eu.css" />
-    <link rel="shortcut icon" href="images/bucky2.png" type="image/png"> </head>
-
+    <link rel="shortcut icon" href="images/bucky2.png" type="image/png">
+    <script src="js/addtohomescreen.js"></script>
+    <!-- Additionally, include jQuery (necessary for bookmark script) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
 <body>
     <header id="header" class="preview">
         <div class="inner">
@@ -14,8 +16,8 @@
                 <h1>Buck</h1>
                 <h2>A versatile RSS reader</h2> </div> <a href="index.html" class="button hidden"><span>Continue</span></a> </div>
     </header>
-    <div id="sidemen" class="sidemenu"> <a href="#" id="donate">Donate</a> <a href="#" id="night">Night Mode</a> </div>
-    <!-- start sw-rss-feed code -->
+    <a id="bookmark-this" href="#" title="Bookmark This Page">Bookmark This Page</a>
+  <!-- start sw-rss-feed code -->
     <script type="text/javascript">
         <!-- 
         rssfeed_url = new Array();
@@ -45,15 +47,15 @@
         rssfeed_footer_color = "#333";
         rssfeed_footer_bgimage = "http://";
         rssfeed_item_title_length = "100";
-        rssfeed_item_title_color = "#000";
-        rssfeed_item_bgcolor = "#fcd9d9";
+        rssfeed_item_title_color = "#fff";
+        rssfeed_item_bgcolor = "#161d28";
         rssfeed_item_bgimage = "http://";
         rssfeed_item_border_bottom = "on";
         rssfeed_item_source_icon = "off";
         rssfeed_item_date = "on";
         rssfeed_item_description = "on";
         rssfeed_item_description_length = "1000";
-        rssfeed_item_description_color = "#000";
+        rssfeed_item_description_color = "#a1a4a8";
         rssfeed_item_description_link_color = "#333";
         rssfeed_item_description_tag = "on";
         rssfeed_no_items = "40";
@@ -82,6 +84,7 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/bookmark.js"></script>
 </body>
 
 </html>
