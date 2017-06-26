@@ -1,6 +1,0 @@
-hulisi-kayaci-226648 // sports
-<body id="body">
-    <input type="button" class="changeBg" onclick="day();" value="Day" />
-    <input type="button" class="changeBg" onclick="night();" value="Night" />
-    <input type="button" class="changeBg" onclick="reset();" value="Reset" />
-</body>
