@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -11,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
-<body>
+<body id  = "body">
     <header id="header" class="preview">
         <div class="inner">
             <div class="content">
@@ -19,6 +20,9 @@
                 <h2>A versatile RSS reader</h2> </div> <a href="index.html" class="button hidden"><span>Continue</span></a> </div>
     </header>
     <a id="bookmark-this" href="#" title="Bookmark This Page">Bookmark This Page</a>
+    <input type="button" id="button1" class="changeBg" onclick="day();"   value="Grey" />
+    <input type="button" id="button2" class="changeBg" onclick="night();" value="Dark blue" />
+    <input type="button" id="button3" class="changeBg" onclick="reset();" value="Default" />
 <!-- start sw-rss-feed code -->
     <script type="text/javascript">
         <!-- 
@@ -48,7 +52,7 @@
         rssfeed_footer_bgimage = "http://";
         rssfeed_item_title_length = "100";
         rssfeed_item_title_color = "#fff";
-        rssfeed_item_bgcolor = "#161d28";
+        rssfeed_item_bgcolor = "";
         rssfeed_item_bgimage = "http://";
         rssfeed_item_border_bottom = "on";
         rssfeed_item_source_icon = "off";
@@ -68,7 +72,7 @@
         <div class="inner">
             <div class="content">
                 <h3>About</h3>
-                <p>Buck RSS reader is your daily dose of new from numerous rss sources like cnn, The guardian, Nasa etc. We aim to deliver news in the best and easiest way to you, the feeds are updated regulary especially world news. So sit back relax and get your reading glasses(if you need them). Feeds used are dislayed with the help of a widget which can be found at <a href="http://www.surfing-waves.com/feed.htm">surfing waves</a></p>
+                <p>Buck RSS reader is your daily dose of News from numerous rss sources like cnn, The guardian, Nasa etc. We aim to deliver news in the best and easiest way to you, the feeds are updated regulary especially world news. So sit back relax and get your reading glasses(if you need them). Feeds used are dislayed with the help of a widget which can be found at <a href="http://www.surfing-waves.com/feed.htm">surfing waves</a></p>
             </div>
             <div class="copyright">
                 <h3>Follow me</h3>
@@ -84,6 +88,7 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bookmark.js"></script>
+    <script src="assets/js/night.js"></script>
 </body>
 
 </html>

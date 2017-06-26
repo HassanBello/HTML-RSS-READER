@@ -1656,7 +1656,7 @@ table.alt tbody tr td {
   padding: 5px 10px;
   font-size: 12px;
   background: #f0ad4e;
-  color: #fff;
+  color: #fff; 
   border: 1px solid #eea236;
   border-radius: 4px;
   text-decoration: none;
@@ -1666,10 +1666,11 @@ table.alt tbody tr td {
   -webkit-user-select:none;
   -moz-user-select:none;
   -ms-user-select:none;
-  user-select:none;
+  user-select:none; 
 }
 
 #bookmark-this:hover {
+    
   background: #ec971f;
   border: 1px solid #d58512;
   text-decoration: none;
@@ -1680,4 +1681,4 @@ table.alt tbody tr td {
   -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
   background: #ec971f;
-}
+} 
